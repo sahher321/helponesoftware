@@ -177,7 +177,7 @@ export default function Navbar() {
                                 <Link href="/security" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Security</Link>
                                 <Link href="/terms-and-conditions" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Terms & Conditions</Link>
                                 <Link href="/privacy-policy" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Privacy Policy</Link>
-                                <Link href="/contact-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Contact Us</Link>
+                                <Link data-aos="fade-up" href="/contact-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -356,7 +356,7 @@ export default function Navbar() {
                         ) : (
                             /* Thumbnail + play button */
                             <div className="relative w-full h-full cursor-pointer group" onClick={() => setVideoPlaying(true)}>
-                                <img
+                                <img data-aos="zoom-in"
                                     src="/assets/thumbnail.png"
                                     alt="Watch HelpOne 2-min Demo"
                                     className="w-full h-full object-cover"

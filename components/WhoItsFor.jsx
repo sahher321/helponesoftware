@@ -4,7 +4,7 @@ export default function WhoItsFor() {
     return (
         <section className="py-20 md:py-32 bg-[#0A1428]" id="who-its-for">
             <div className="max-w-screen-xl mx-auto px-6 md:px-10">
-                <h2 className="heading-font text-4xl md:text-5xl font-bold tracking-tight text-white mb-12 text-center">
+                <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl font-bold tracking-tight text-white mb-12 text-center">
                     Who It&apos;s For
                 </h2>
 

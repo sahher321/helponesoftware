@@ -8,7 +8,7 @@ export default function Footer() {
         <footer className="bg-black py-20">
             <div className="max-w-screen-2xl mx-auto px-6">
                 <div className="grid md:grid-cols-5 gap-12">
-                    <div>
+                    <div data-aos="fade-up">
                         <div className="flex items-center mb-6 -m-5">
                             <Link href="/">
                                 <Image
@@ -24,7 +24,7 @@ export default function Footer() {
                         <div className="mt-8 text-xs text-white/40">© 2026 HelpOne Software, Inc.</div>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="100">
                         <div className="font-medium mb-6 text-[#00E6C3]">Platform</div>
                         <div className="space-y-3 text-sm text-white/70">
                             <Link href="/volunteer-management" className="block hover:text-white">Volunteer Management</Link>
@@ -42,7 +42,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="200">
                         <div className="font-medium mb-6 text-[#00E6C3]">Who It&apos;s For</div>
                         <div className="space-y-3 text-sm text-white/70">
                             <Link href="/faith-communities" className="block hover:text-white">Faith Communities</Link>
@@ -55,7 +55,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="300">
                         <div className="font-medium mb-6 text-[#00E6C3]">Company</div>
                         <div className="space-y-3 text-sm text-white/70">
                             <Link href="/faq" className="block hover:text-white">FAQs</Link>
@@ -69,7 +69,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="400">
                         <div className="font-medium mb-6 text-[#00E6C3]">Get in touch</div>
                         <a href="mailto:hello@helponesoftware.com" className="text-sm text-white/70 hover:text-[#00E6C3] transition-colors mb-6 block [text-decoration:none]">hello@helponesoftware.com</a>
                         <Link

@@ -4,7 +4,7 @@ export default function MyHelpOneSecurity() {
     return (
         <section className="py-24 md:py-32 bg-black text-white">
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
-                <h2 className="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-16">
+                <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-16">
                     Built for Nonprofits.<br />Secured Like Enterprise.
                 </h2>
 

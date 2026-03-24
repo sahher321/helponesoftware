@@ -3,7 +3,7 @@ export default function SwitchingIsSimple() {
         <section className="py-24 md:py-32 bg-black">
             <div className="max-w-screen-xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="heading-font text-4xl md:text-5xl font-bold text-white mb-4">
+                    <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl font-bold text-white mb-4">
                         Switching Is Simple. Savings Are Immediate.
                     </h2>
                     <p className="text-lg md:text-xl text-[#00E6C3]/80 mb-10 max-w-2xl mx-auto">

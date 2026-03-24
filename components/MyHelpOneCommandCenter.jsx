@@ -6,7 +6,7 @@ export default function MyHelpOneCommandCenter() {
         <section className="py-24 md:py-32 bg-[#02040D] text-white">
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
                 <div className="text-center mb-16">
-                    <h2 className="heading-font text-3xl md:text-5xl lg:text-5xl font-bold tracking-tighter">
+                    <h2 data-aos="fade-up" className="heading-font text-3xl md:text-5xl lg:text-5xl font-bold tracking-tighter">
                         Your Personal Nonprofit Command Center
                     </h2>
                 </div>

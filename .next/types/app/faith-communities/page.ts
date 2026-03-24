@@ -1,4 +1,4 @@
-// File: C:\Users\Generation Digital\Desktop\New folder\ddd\helponesoftware\app\faith-communities\page.jsx
+// File: C:\Users\Generation Digital\Desktop\New folder\helponesoftware\app\faith-communities\page.jsx
 import * as entry from '../../../../app/faith-communities/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

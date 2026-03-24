@@ -10,7 +10,7 @@ export default function PoliciesProceduresFeatures() {
                         <h3 className="text-[#00E6C3] font-bold text-sm tracking-[0.2em] uppercase mb-6 text-left">
                             MOST NONPROFITS STRUGGLE WITH
                         </h3>
-                        <h2 className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight pr-4">
+                        <h2 data-aos="fade-up" className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight pr-4">
                             Scattered documents<br />and manual chaos.
                         </h2>
                     </div>

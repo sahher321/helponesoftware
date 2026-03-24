@@ -5,7 +5,7 @@ export default function FoundersProgram() {
         <section className="py-20 md:py-32 bg-black" id="founders-program">
             <div className="max-w-screen-md mx-auto px-6 text-center">
                 <div className="text-4xl md:text-5xl mb-6">🚀</div>
-                <h2 className="heading-font text-3xl md:text-5xl font-bold text-white mb-4">
+                <h2 data-aos="fade-up" className="heading-font text-3xl md:text-5xl font-bold text-white mb-4">
                     Founders Program
                 </h2>
                 <p className="text-sm md:text-base text-white/80 mb-10 max-w-sm mx-auto">

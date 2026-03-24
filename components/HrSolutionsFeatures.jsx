@@ -10,7 +10,7 @@ export default function HrSolutionsFeatures() {
                         <h3 className="text-[#00E6C3] font-bold text-sm tracking-[0.2em] uppercase mb-6 text-left">
                             MOST NONPROFIT LEADERS STRUGGLE WITH
                         </h3>
-                        <h2 className="heading-font text-5xl md:text-5xl lg:text-5xl font-bold tracking-tighter leading-tight pr-4">
+                        <h2 data-aos="fade-up" className="heading-font text-5xl md:text-5xl lg:text-5xl font-bold tracking-tighter leading-tight pr-4">
                             Fragmented HR<br />systems that treat<br />staff and volunteers<br />as separate worlds<br />and leave compliance<br />as an afterthought.
                         </h2>
                     </div>

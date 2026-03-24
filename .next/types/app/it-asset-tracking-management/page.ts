@@ -1,4 +1,4 @@
-// File: C:\Users\Generation Digital\Desktop\New folder\ddd\helponesoftware\app\it-asset-tracking-management\page.jsx
+// File: C:\Users\Generation Digital\Desktop\New folder\helponesoftware\app\it-asset-tracking-management\page.jsx
 import * as entry from '../../../../app/it-asset-tracking-management/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

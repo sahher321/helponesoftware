@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import AosInit from '../components/AosInit';
 
 const siteUrl = 'https://helponesoftware.com';
 
@@ -77,6 +78,7 @@ export default function RootLayout({ children }) {
                 />
             </head>
             <body>
+                <AosInit />
                 <Navbar />
                 <main>{children}</main>
                 <Footer />

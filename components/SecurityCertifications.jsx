@@ -29,7 +29,7 @@ export default function SecurityCertifications() {
     return (
         <section className="py-24 bg-black">
             <div className="max-w-screen-xl mx-auto px-6 text-center">
-                <h2 className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-16">
+                <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-16">
                     Certified. Audited. Trusted.
                 </h2>
 

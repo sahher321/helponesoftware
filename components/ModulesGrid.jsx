@@ -18,12 +18,12 @@ export default function ModulesGrid({ modules }) {
     return (
         <section id="modules" className="py-12 md:py-24 bg-[#0A1428]">
             <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
-                <div className="text-center mb-8 md:mb-16">
+                <div className="text-center mb-8 md:mb-16" data-aos="fade-up">
                     <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter">9 Powerful Modules.<br />One breathtaking platform.</h2>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-8">
-                    {displayModules.map((mod) => (
-                        <div key={mod.title} className="module-card bg-white/5 rounded-3xl overflow-hidden">
+                    {displayModules.map((mod, index) => (
+                        <div key={mod.title} className="module-card bg-white/5 rounded-3xl overflow-hidden" data-aos="fade-up" data-aos-delay={index * 50}>
                             <div className={`h-2 ${mod.color}`}></div>
                             <div className="p-5 md:p-8">
                                 <div className="text-4xl md:text-5xl mb-4 md:mb-6">{mod.emoji}</div>

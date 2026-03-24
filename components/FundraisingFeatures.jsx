@@ -10,7 +10,7 @@ export default function FundraisingFeatures() {
                         <h3 className="text-[#00E6C3] font-bold text-sm tracking-[0.2em] uppercase mb-6 text-left">
                             MOST FUNDRAISING TOOLS ARE
                         </h3>
-                        <h2 className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
+                        <h2 data-aos="fade-up" className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
                             Limited.<br />You need truly<br />unlimited.
                         </h2>
                     </div>

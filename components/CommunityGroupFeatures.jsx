@@ -5,15 +5,15 @@ export default function CommunityGroupFeatures() {
             <div className="max-w-screen-xl mx-auto px-6 py-20 md:py-32">
                 <div className="grid md:grid-cols-12 gap-12 md:gap-20 items-start">
                     {/* Left Column (Headline) */}
-                    <div className="md:col-span-5 lg:col-span-5">
-                        <h2 className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight">
+                    <div data-aos="fade-right" className="md:col-span-5 lg:col-span-5">
+                        <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight">
                             Neighbors Helping<br />Neighbors.<br />
                             Made Simple.
                         </h2>
                     </div>
 
                     {/* Right Column (Content) */}
-                    <div className="md:col-span-7 lg:col-span-7">
+                    <div data-aos="fade-left" className="md:col-span-7 lg:col-span-7">
                         <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
                             From block parties to neighborhood watches, HelpOne removes the admin burden so your group can focus on connection, service, and making your community better. Unlimited everything. One flat price. No per-user fees.
                         </p>

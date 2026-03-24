@@ -5,7 +5,7 @@ export default function DataResponsibility() {
                 <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
                     {/* Left Column (Headline) */}
                     <div className="lg:col-span-5">
-                        <h2 className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
+                        <h2 data-aos="fade-up" className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
                             Your Data. Our<br />Responsibility.
                         </h2>
                     </div>

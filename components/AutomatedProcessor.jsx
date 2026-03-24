@@ -4,7 +4,7 @@ export default function AutomatedProcessor() {
     return (
         <section className="py-20 bg-black" id="automated-processor">
             <div className="max-w-screen-lg mx-auto px-6 text-center">
-                <h2 className="heading-font text-3xl md:text-5xl font-bold text-white mb-4">
+                <h2 data-aos="fade-up" className="heading-font text-3xl md:text-5xl font-bold text-white mb-4">
                     Access the Automated Processor Approval System
                 </h2>
                 <p className="text-sm md:text-base text-white/80 mb-10">

@@ -5,7 +5,7 @@ export default function GettingStartedStepsGrid() {
         <section className="py-24 md:py-32 bg-[#02040D] text-white">
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
                 <div className="text-center mb-16 md:mb-20">
-                    <h2 className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
+                    <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
                         Your 3-Step Transition to HelpOne
                     </h2>
                     <p className="text-xl md:text-2xl text-white/70">

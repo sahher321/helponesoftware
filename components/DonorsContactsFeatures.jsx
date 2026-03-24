@@ -10,7 +10,7 @@ export default function DonorsContactsFeatures() {
                         <h3 className="text-[#00E6C3] font-bold text-sm tracking-[0.2em] uppercase mb-6 text-left">
                             MOST CRMS ARE
                         </h3>
-                        <h2 className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
+                        <h2 data-aos="fade-up" className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
                             Generic lists.<br />You need 360°<br />insight.
                         </h2>
                     </div>

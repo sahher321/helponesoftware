@@ -43,22 +43,22 @@ export default function HomePage() {
             <section className="py-12 md:py-24 bg-[#0A1428]">
                 <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
                     <div className="grid md:grid-cols-12 gap-8 md:gap-16 items-center">
-                        <div className="md:col-span-5">
+                        <div className="md:col-span-5" data-aos="fade-right">
                             <div className="uppercase tracking-[3px] text-[#00E6C3] text-sm font-medium mb-3 md:mb-4">Most nonprofits run on</div>
                             <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-none tracking-tighter">Duct-taped tools.<br />You deserve better.</h2>
                         </div>
                         <div className="md:col-span-7 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
-                            <div className="bg-white/5 p-5 md:p-8 rounded-3xl">
+                            <div className="bg-white/5 p-5 md:p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
                                 <div className="text-3xl md:text-4xl mb-3 md:mb-6">8+</div>
                                 <div className="font-semibold text-lg md:text-xl mb-1 md:mb-2">Logins &amp; passwords</div>
                                 <div className="text-white/70 text-sm md:text-base">VolunteerHub. Bloomerang. QuickBooks. SignUpGenius. Google Sheets...</div>
                             </div>
-                            <div className="bg-white/5 p-5 md:p-8 rounded-3xl">
+                            <div className="bg-white/5 p-5 md:p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
                                 <div className="text-3xl md:text-4xl mb-3 md:mb-6">∞</div>
                                 <div className="font-semibold text-lg md:text-xl mb-1 md:mb-2">Manual spreadsheets</div>
                                 <div className="text-white/70 text-sm md:text-base">Hours tracking. Donor lists. 990 prep. Event tasks.</div>
                             </div>
-                            <div className="bg-white/5 p-5 md:p-8 rounded-3xl">
+                            <div className="bg-white/5 p-5 md:p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="300">
                                 <div className="text-3xl md:text-4xl mb-3 md:mb-6">$</div>
                                 <div className="font-semibold text-lg md:text-xl mb-1 md:mb-2">Hidden fees everywhere</div>
                                 <div className="text-white/70 text-sm md:text-base">Per-record. Per-user. Per-event. 3%+ payment processing.</div>
@@ -71,7 +71,7 @@ export default function HomePage() {
             {/* THE VISION */}
             <section id="platform" className="py-12 md:py-24 bg-gradient-to-b from-[#0A1428] to-black">
                 <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
-                    <div className="text-center max-w-3xl mx-auto mb-10 md:mb-20">
+                    <div className="text-center max-w-3xl mx-auto mb-10 md:mb-20" data-aos="fade-up">
                         <div className="inline px-5 py-2 md:px-6 bg-[#00E6C3]/10 text-[#00E6C3] rounded-full text-sm font-medium">Built from first principles</div>
                         <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter mt-4 md:mt-6">Your mission deserves Tesla-grade technology with Apple-grade simplicity.</h2>
                     </div>
@@ -92,7 +92,7 @@ export default function HomePage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-gradient-to-br from-[#00E6C3]/5 to-transparent border border-[#00E6C3]/20 rounded-3xl p-5 md:p-10 relative">
+                        <div className="bg-gradient-to-br from-[#00E6C3]/5 to-transparent border border-[#00E6C3]/20 rounded-3xl p-5 md:p-10 relative" data-aos="zoom-in" data-aos-delay="200">
                             <Image src="https://picsum.photos/id/201/800/600" alt="Dashboard Preview" width={800} height={600} className="rounded-2xl shadow-2xl" />
                         </div>
                     </div>
@@ -102,7 +102,7 @@ export default function HomePage() {
             {/* UNLIMITED EVERYTHING */}
             <section className="py-12 md:py-24 bg-black">
                 <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
-                    <div className="text-center mb-8 md:mb-16">
+                    <div className="text-center mb-8 md:mb-16" data-aos="fade-up">
                         <span className="text-[#00E6C3] text-sm font-medium tracking-widest">UNLIMITED ON EVERY PLAN</span>
                         <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter mt-3 md:mt-4">No caps. No surprises.<br />Forever.</h2>
                     </div>
@@ -116,8 +116,8 @@ export default function HomePage() {
                             { icon: 'fa-sms', title: 'Unlimited SMS/Texts', desc: 'To staff, volunteers, donors — instant' },
                             { icon: 'fa-file-signature', title: 'Unlimited e-Signatures', desc: 'Onboarding, offers, policies' },
                             { icon: 'fa-shield-alt', title: 'Unlimited Policies', desc: 'Living books, chapters, auto-PDFs' },
-                        ].map((item) => (
-                            <div key={item.title} className="bg-white/5 p-4 md:p-8 rounded-3xl hover:bg-white/10 transition-all">
+                        ].map((item, index) => (
+                            <div key={item.title} className="bg-white/5 p-4 md:p-8 rounded-3xl hover:bg-white/10 transition-all" data-aos="fade-up" data-aos-delay={index * 50}>
                                 <i className={`fas ${item.icon} text-2xl md:text-4xl text-[#00E6C3] mb-3 md:mb-6`}></i>
                                 <h4 className="font-semibold text-base md:text-xl">{item.title}</h4>
                                 <p className="text-white/70 mt-1 md:mt-3 text-xs md:text-sm">{item.desc}</p>
@@ -136,7 +136,7 @@ export default function HomePage() {
             {/* FOUNDERS PROGRAM */}
             <section id="pricing" className="py-12 md:py-24 bg-gradient-to-b from-black to-[#0A1428]">
                 <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
-                    <div className="max-w-2xl mx-auto text-center">
+                    <div className="max-w-2xl mx-auto text-center" data-aos="fade-up">
                         <div className="text-5xl md:text-6xl mb-4 md:mb-6">🚀</div>
                         <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter">Founders Program</h2>
                         <p className="text-lg md:text-2xl mt-4 md:mt-6 text-white/80">Be among the first 250 nonprofits to lock in the lowest rate ever offered.</p>

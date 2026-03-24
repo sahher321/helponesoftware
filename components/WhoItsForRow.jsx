@@ -29,7 +29,7 @@ export default function WhoItsForRow({
     return (
         <section className="py-24 bg-[#0A1428] text-white border-t border-b border-white/5">
             <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-                <h2 className="heading-font text-5xl font-bold tracking-tight text-center mb-16">
+                <h2 data-aos="fade-up" className="heading-font text-5xl font-bold tracking-tight text-center mb-16">
                     {title}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">

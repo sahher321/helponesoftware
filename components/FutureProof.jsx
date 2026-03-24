@@ -12,7 +12,7 @@ export default function FutureProof({
                             <div className="inline-flex items-center gap-3 md:gap-4 bg-[#00E6C3]/10 text-[#00E6C3] px-4 py-2 md:px-6 md:py-3 rounded-3xl text-xs md:text-sm font-medium mb-5 md:mb-8">
                                 <i className="fas fa-shield-alt"></i> FUTURE-PROOF FROM DAY ONE
                             </div>
-                            <h2 className="heading-font text-2xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none">
+                            <h2 data-aos="fade-up" className="heading-font text-2xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none">
                                 {title}<br />
                                 <span className="text-[#00E6C3]">{titleAccent}</span>
                             </h2>

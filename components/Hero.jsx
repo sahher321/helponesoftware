@@ -23,12 +23,12 @@ export default function Hero({
             <div className="max-w-screen-2xl mx-auto px-6 pt-20 pb-16 relative z-10 w-full flex justify-center">
                 <div className="w-full max-w-5xl text-left">
                     {badge && (
-                        <div className="inline-flex items-center gap-2 bg-[#1a2640]/50 border border-white/10 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-8">
+                        <div data-aos="fade-up" className="inline-flex items-center gap-2 bg-[#1a2640]/50 border border-white/10 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-8">
                             <div className="w-2 h-2 bg-[#00E6C3] rounded-full animate-pulse"></div>
                             <span className="font-medium text-white/90">{badge}</span>
                         </div>
                     )}
-                    <h1 className="heading-font text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tighter mb-6">
+                    <h1 data-aos="fade-up" data-aos-delay="100" className="heading-font text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tighter mb-6">
                         {title}
                         {titleAccent && (
                             <>
@@ -38,18 +38,18 @@ export default function Hero({
                         )}
                     </h1>
                     {subtitle && (
-                        <p className="text-xl md:text-2xl text-white/80 max-w-2xl mb-12 text-left">
+                        <p data-aos="fade-up" data-aos-delay="200" className="text-xl md:text-2xl text-white/80 max-w-2xl mb-12 text-left">
                             {subtitle}
                         </p>
                     )}
 
                     {/* If custom children provided (e.g. FAQ search bar), render them. Otherwise standard buttons.*/}
                     {children ? (
-                        <div className="flex flex-col sm:flex-row items-center sm:items-start justify-start gap-4 mt-8 w-full">
+                        <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col sm:flex-row items-center sm:items-start justify-start gap-4 mt-8 w-full">
                             {children}
                         </div>
                     ) : !hideButtons && (
-                        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-start gap-4 mt-8 w-full">
+                        <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col sm:flex-row items-stretch sm:items-center justify-start gap-4 mt-8 w-full">
                             <Link href={primaryCtaLink} className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-[#00E6C3] hover:bg-white text-[#0A1428] text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-3 group transition-colors">
                                 {primaryCtaText} <span className="text-lg md:text-xl group-hover:translate-x-1 transition-transform">→</span>
                             </Link>

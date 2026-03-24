@@ -4,7 +4,7 @@ export default function GettingStartedTimeline() {
     return (
         <section className="py-24 md:py-32 bg-black text-white">
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
-                <h2 className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-16 md:mb-24">
+                <h2 data-aos="fade-up" className="heading-font text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-16 md:mb-24">
                     What to Expect in Your First 30 Days
                 </h2>
 
