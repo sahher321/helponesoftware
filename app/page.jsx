@@ -6,6 +6,7 @@ import CtaBanner from '../components/CtaBanner';
 import TrustBar from '../components/TrustBar';
 import ModulesGrid from '../components/ModulesGrid';
 import FutureProof from '../components/FutureProof';
+import homepageImg from '../assets/homepage.png';
 
 export const metadata = {
     title: 'HelpOne — One Platform. Unlimited Missions.',
@@ -91,9 +92,23 @@ export default function HomePage() {
                                     <p className="text-white/70 mt-2 md:mt-3 text-sm md:text-base">QR check-ins, auto-thank-yous, 1-click 990s, self-service portals. Everything flows.</p>
                                 </div>
                             </div>
+                            <div className="flex gap-4 md:gap-6">
+                                <div className="w-10 h-10 md:w-12 md:h-12 bg-[#00E6C3]/10 rounded-2xl flex items-center justify-center text-2xl md:text-3xl flex-shrink-0">🛡️</div>
+                                <div>
+                                    <h3 className="text-xl md:text-2xl font-semibold">Future-proof from day one</h3>
+                                    <p className="text-white/70 mt-2 md:mt-3 text-sm md:text-base">Start with only what you need. Simply hide the rest — they disappear from your dashboard.</p>
+                                </div>
+                            </div>
+                            <div className="flex gap-4 md:gap-6">
+                                <div className="w-10 h-10 md:w-12 md:h-12 bg-[#00E6C3]/10 rounded-2xl flex items-center justify-center text-2xl md:text-3xl flex-shrink-0">💳</div>
+                                <div>
+                                    <h3 className="text-xl md:text-2xl font-semibold">Instant savings</h3>
+                                    <p className="text-white/70 mt-2 md:mt-3 text-sm md:text-base">Payments is independently of the HelpOne system with lowest rates available. No subscription needed.</p>
+                                </div>
+                            </div>
                         </div>
                         <div className="bg-gradient-to-br from-[#00E6C3]/5 to-transparent border border-[#00E6C3]/20 rounded-3xl p-5 md:p-10 relative" data-aos="zoom-in" data-aos-delay="200">
-                            <Image src="https://picsum.photos/id/201/800/600" alt="Dashboard Preview" width={800} height={600} className="rounded-2xl shadow-2xl" />
+                            <Image src={homepageImg} alt="Dashboard Preview" width={800} height={600} className="rounded-2xl shadow-2xl" />
                         </div>
                     </div>
                 </div>

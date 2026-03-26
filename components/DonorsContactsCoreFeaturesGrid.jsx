@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Import images from assets folder
-import dash1 from '../assets/DASHBOARD IMAGE 1.webp';
-import dash2 from '../assets/DASHBOARD IMAGE 2.webp';
-import dash3 from '../assets/DASHBOARD IMAGE 3.png';
+import dash1 from '../assets/donor/Centralized Contact & Company Management.png';
+import dash2 from '../assets/donor/Effortless Donation Tracking.png';
+import dash3 from '../assets/donor/Powerful Email Campaigns.png';
 
 export default function DonorsContactsCoreFeaturesGrid() {
     return (

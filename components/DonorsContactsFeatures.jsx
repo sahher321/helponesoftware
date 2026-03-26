@@ -7,40 +7,35 @@ export default function DonorsContactsFeatures() {
                 <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
                     {/* Left Column (Headline) */}
                     <div className="lg:col-span-5">
-                        <h3 className="text-[#00E6C3] font-bold text-sm tracking-[0.2em] uppercase mb-6 text-left">
-                            MOST CRMS ARE
-                        </h3>
+                       
                         <h2 data-aos="fade-up" className="heading-font text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
-                            Generic lists.<br />You need 360°<br />insight.
+                            Unified Contact &<br />Company<br />Management
                         </h2>
                     </div>
 
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Unlike Bloomerang or Raiser&apos;s Edge (capped records, silos, no consolidated scoring), HelpOne<br className="hidden xl:block" />
-                            gives you a true <strong>360° view</strong>: lifetime value + engagement scoring (cash + volunteer time +<br className="hidden xl:block" />
-                            recency in <strong>one number</strong>), unlimited records, self-service portal, Form 990-ready data, and<br className="hidden xl:block" />
-                            deep native integration across the entire HelpOne OS.
+                          Build deeper connections with donors, sponsors, and partners. HelpOne’s nonprofit-smart CRM simplifies nurturing, follow-up, tracking, and communication in one intuitive hub.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
                             <div>
                                 <h3 className="text-[#00E6C3] font-bold text-sm tracking-wide uppercase mb-3 text-left">
-                                    LIFETIME VALUE SCORING
+                                    UNLIMITED SCALE
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Cash + volunteer time + recency —<br className="hidden xl:block" />
-                                    consolidated in one powerful score
+                                    No contact caps. No vendor limits. Add as<br className="hidden xl:block" />
+                                    many records as your mission demands.
                                 </p>
                             </div>
                             <div>
                                 <h3 className="text-[#00E6C3] font-bold text-sm tracking-wide uppercase mb-3 text-left">
-                                    TRULY UNLIMITED
+                                    NONPROFIT-FIRST
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    No donor caps. No per-record fees. Grow<br className="hidden xl:block" />
-                                    freely.
+                                    Seamless integration with events, fundraising,<br className="hidden xl:block" />
+                                   and finance for real-time insights.
                                 </p>
                             </div>
                         </div>
