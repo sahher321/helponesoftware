@@ -173,7 +173,7 @@ export default function Navbar() {
                                 <Link href="/faq" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">FAQs</Link>
                                 <Link href="/about-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">About Us</Link>
                                 <Link href="/partners" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Partners</Link>
-                                <Link href="/affiliate" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Affiliate Program</Link>
+
                                 <Link href="/security" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Security</Link>
                                 <Link href="/terms-and-conditions" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Terms & Conditions</Link>
                                 <Link href="/privacy-policy" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Privacy Policy</Link>
@@ -296,7 +296,7 @@ export default function Navbar() {
                                         <Link href="/faq" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">FAQs</Link>
                                         <Link href="/about-us" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">About Us</Link>
                                         <Link href="/partners" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Partners</Link>
-                                        <Link href="/affiliate" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Affiliate Program</Link>
+
                                         <Link href="/security" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Security</Link>
                                         <Link href="/terms-and-conditions" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Terms & Conditions</Link>
                                         <Link href="/privacy-policy" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Privacy Policy</Link>

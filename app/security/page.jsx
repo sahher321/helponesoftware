@@ -22,7 +22,7 @@ export default function SecurityPage() {
                 title="Your Mission."
                 titleAccent="Our Protection."
                 subtitle="Enterprise-grade security trusted by nonprofits. SOC 2 Type II, PCI Level 1 certified, end-to-end encryption, and continuous monitoring so you can focus on your cause \u2014 not your data."
-             primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="View Certifications" secondaryCtaLink="#certifications" />
+             primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" />
 
             {/* TRUST BAR */}
             <TrustBar

@@ -219,10 +219,6 @@ export default function ContactUsPage() {
                                     <h3 className="text-[#00E6C3] text-xs font-bold mb-1">Support</h3>
                                     <a href="mailto:support@helponesoftware.com" className="text-white text-sm hover:underline font-medium">support@helponesoftware.com</a>
                                 </div>
-                                <div>
-                                    <h3 className="text-[#00E6C3] text-xs font-bold mb-1">Phone</h3>
-                                    <a href="tel:+914-449-4600" className="text-white text-sm hover:underline font-medium">914-449-4600</a>
-                                </div>
                             </div>
                         </div>
 

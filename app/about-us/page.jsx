@@ -138,7 +138,7 @@ export default function AboutPage() {
                         <div className="flex items-center gap-5">
                             <div className="rounded-xl overflow-hidden border border-white/10 shadow-lg">
                                 <Image
-                                    src="/assets/poweredby.jpg"
+                                    src="/assets/otherfiles/CNS_Logo.png"
                                     alt="Citinet Solutions"
                                     width={160}
                                     height={80}

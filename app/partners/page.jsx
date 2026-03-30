@@ -26,7 +26,7 @@ export default function PartnersPage() {
                 title="Strategic Partners."
                 titleAccent="Real Impact."
                 subtitle="Trusted technology leaders powering HelpOne. Revenue share, co-marketing, early access, and deep integrations that help nonprofits do more with less."
-             primaryCtaText="Become a Partner" primaryCtaLink="/contact-us" secondaryCtaText="Schedule Partnership Call" secondaryCtaLink="/contact-us" />
+                primaryCtaText="Become a Partner" primaryCtaLink="/contact-us" secondaryCtaText="Schedule Partnership Call" secondaryCtaLink="/contact-us" />
 
             {/* TRUST BAR */}
             <TrustBar items={[
@@ -98,9 +98,9 @@ export default function PartnersPage() {
                         {/* Citinet Solutions */}
                         <div className="bg-[#111827] border border-white/5 hover:border-[#00E6C3]/30 rounded-2xl p-8 md:p-10 flex flex-col gap-6 transition-all">
                             <div className="flex items-center gap-4">
-                                <div className="rounded-xl overflow-hidden border border-white/10 flex-shrink-0">
+                                <div className="rounded-sm overflow-hidden border border-white/10 flex-shrink-0">
                                     <Image
-                                        src="/assets/poweredby.jpg"
+                                        src="/assets/otherfiles/CNS_Logo.png"
                                         alt="Citinet Solutions"
                                         width={80}
                                         height={50}
@@ -136,9 +136,9 @@ export default function PartnersPage() {
                         {/* Intwinely */}
                         <div className="bg-[#111827] border border-white/5 hover:border-[#00E6C3]/30 rounded-2xl p-8 md:p-10 flex flex-col gap-6 transition-all">
                             <div className="flex items-center gap-4">
-                                <div className="rounded-xl overflow-hidden border border-white/10 flex-shrink-0">
+                                <div className="rounded-sm overflow-hidden border border-white/10 flex-shrink-0">
                                     <Image
-                                        src="/assets/Intwinely.jpg"
+                                        src="/assets/otherfiles/Intwinely_logo.png"
                                         alt="Intwinely"
                                         width={80}
                                         height={50}
@@ -226,7 +226,7 @@ export default function PartnersPage() {
                         >
                             Apply to Become a Partner
                         </Link>
-                        <span className="text-white/40 text-sm">Approval in 48 hours • No cost to join</span>
+
                     </div>
                 </div>
             </section>
