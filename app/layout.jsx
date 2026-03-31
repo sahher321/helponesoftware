@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import AosInit from '../components/AosInit';
+import Script from 'next/script';
 
 const siteUrl = 'https://helponesoftware.com';
 
@@ -78,6 +79,19 @@ export default function RootLayout({ children }) {
                 />
             </head>
             <body>
+                <Script
+                    strategy="afterInteractive"
+                    src="https://www.googletagmanager.com/gtag/js?id=G-JGSKFEED8X"
+                />
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'G-JGSKFEED8X');
+                    `}
+                </Script>
                 <AosInit />
                 <Navbar />
                 <main>{children}</main>
