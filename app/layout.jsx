@@ -92,6 +92,10 @@ export default function RootLayout({ children }) {
                         gtag('config', 'G-JGSKFEED8X');
                     `}
                 </Script>
+                <Script
+                    strategy="afterInteractive"
+                    src="https://t.contentsquare.net/uxa/0c2435c647552.js"
+                />
                 <AosInit />
                 <Navbar />
                 <main>{children}</main>

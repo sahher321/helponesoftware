@@ -4,4 +4,4 @@ exports.id=968,exports.ids=[968],exports.modules={2987:(a,b,c)=>{"use strict";c.
                         gtag('js', new Date());
 
                         gtag('config', 'G-JGSKFEED8X');
-                    `}),(0,d.jsx)(g.default,{}),(0,d.jsx)(e.default,{}),(0,d.jsx)("main",{children:a}),(0,d.jsx)(f.default,{})]})]})}}};
+                    `}),(0,d.jsx)(h.default,{strategy:"afterInteractive",src:"https://t.contentsquare.net/uxa/0c2435c647552.js"}),(0,d.jsx)(g.default,{}),(0,d.jsx)(e.default,{}),(0,d.jsx)("main",{children:a}),(0,d.jsx)(f.default,{})]})]})}}};
