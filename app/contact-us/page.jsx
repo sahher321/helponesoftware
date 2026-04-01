@@ -75,7 +75,7 @@ export default function ContactUsPage() {
                 badge="Company &bull; Contact Us"
                 title="Let's Talk About"
                 titleAccent="Your Mission."
-                subtitle="Whether you're ready for a demo, have a question, or just want to say hello — we're here to help. Fill out the form or reach out directly."
+                subtitle="Whether you're ready for a demo, have a question, or just want to say hello – we're here to help. Fill out the form or reach out directly."
                 hideButtons={true}
             />
 

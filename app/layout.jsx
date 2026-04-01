@@ -9,10 +9,10 @@ const siteUrl = 'https://helponesoftware.com';
 export const metadata = {
     metadataBase: new URL(siteUrl),
     title: {
-        default: 'HelpOne — One Platform. Unlimited Missions.',
+        default: 'HelpOne – One Platform. Unlimited Missions.',
         template: '%s | HelpOne',
     },
-    description: 'HelpOne is the all-in-one nonprofit operating system — volunteer management, fundraising, events, donors, HR, finances, and more. Unlimited users, records, and transactions. One simple price.',
+    description: 'Manage donors, volunteers, fundraising, events, finances, and more – without juggling multiple tools, paying per user, or dealing with hidden fees.',
     keywords: [
         'nonprofit software', 'volunteer management', 'nonprofit OS', 'fundraising software',
         'nonprofit platform', 'donor management', 'event management nonprofits',
@@ -31,16 +31,16 @@ export const metadata = {
         locale: 'en_US',
         url: siteUrl,
         siteName: 'HelpOne',
-        title: 'HelpOne — One Platform. Unlimited Missions.',
-        description: 'The most beautiful, truly unlimited nonprofit OS ever built. Ditch 8+ logins, end spreadsheet chaos.',
-        images: [{ url: '/assets/Logo-06.png', width: 2383, height: 872, alt: 'HelpOne — One Platform. Unlimited Missions.' }],
+        title: 'HelpOne – One Platform. Unlimited Missions.',
+        description: 'Manage donors, volunteers, fundraising, events, finances, and more – without juggling multiple tools, paying per user, or dealing with hidden fees.',
+        images: [{ url: '/assets/Logo-06.png', width: 2383, height: 872, alt: 'HelpOne – One Platform. Unlimited Missions.' }],
     },
     twitter: {
         card: 'summary_large_image',
         site: '@helponesoftware',
         creator: '@helponesoftware',
-        title: 'HelpOne — One Platform. Unlimited Missions.',
-        description: 'The all-in-one nonprofit OS. Unlimited everything, one simple price.',
+        title: 'HelpOne – One Platform. Unlimited Missions.',
+        description: 'Manage donors, volunteers, fundraising, events, finances, and more – without juggling multiple tools, paying per user, or dealing with hidden fees.',
         images: ['/assets/Logo-06.png'],
     },
     alternates: {

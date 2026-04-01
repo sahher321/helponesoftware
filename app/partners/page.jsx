@@ -5,12 +5,12 @@ import TrustBar from '../../components/TrustBar';
 import CtaBanner from '../../components/CtaBanner';
 
 export const metadata = {
-    title: 'Partners — Strategic Alliances | HelpOne',
+    title: 'Partners – Strategic Alliances | HelpOne',
     description: 'Trusted technology leaders powering HelpOne. Revenue share, co-marketing, early access, and deep integrations that help nonprofits do more with less.',
     keywords: ['HelpOne partners', 'nonprofit technology partners', 'HelpOne integrations', 'revenue share partner program'],
     alternates: { canonical: 'https://helponesoftware.com/partners/' },
     openGraph: {
-        title: 'Partners — Strategic Alliances | HelpOne',
+        title: 'Partners – Strategic Alliances | HelpOne',
         description: 'Trusted technology leaders powering HelpOne.',
         url: 'https://helponesoftware.com/partners/',
         images: [{ url: '/assets/Logo-06.png', alt: 'HelpOne Partners' }],
@@ -49,7 +49,7 @@ export default function PartnersPage() {
                         {/* Right */}
                         <div>
                             <p className="text-white/70 text-base md:text-lg leading-relaxed mb-10">
-                                We don&apos;t just integrate — we co-create success. Our partners get revenue share, co-branded marketing, lead generation, and early access to new features while helping nonprofits run more efficiently.
+                                We don&apos;t just integrate – we co-create success. Our partners get revenue share, co-branded marketing, lead generation, and early access to new features while helping nonprofits run more efficiently.
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                                 {[
