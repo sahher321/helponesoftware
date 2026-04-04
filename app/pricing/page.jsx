@@ -32,10 +32,10 @@ export default function PricingPage() {
                 badge="Pricing • Unlimited for Every Mission"
                 title="Unlimited Everything."
                 titleAccent="One Simple Price."
-                subtitle="The only all-in-one nonprofit platform with truly unlimited users, records, transactions, events, custom fields, forms, reports, and more. No per-record fees. No hidden charges."
+                subtitle="The only all-in-one nonprofit platform with truly unlimited records, transactions, events, forms, reports, and more. No per-record fees. No hidden charges."
              primaryCtaText="Claim $499/mo Founders Rate" primaryCtaLink="/pricing" secondaryCtaText="Schedule Free Demo" secondaryCtaLink="/contact-us" />
 
-            <TrustBar items={['Unlimited Custom Fields & Reports', 'No Per-Transaction Fees', 'Full White-Label in Scale Tier', 'SOC 2 • PCI Level 1']} />
+            <TrustBar items={['Unlimited Forms & Reports', 'No Per-Transaction Fees', 'Full White-Label in Scale Tier', 'SOC 2 • PCI Level 1']} />
 
             {/* FOUNDERS RATE */}
             <section className="py-12 md:py-24 bg-[#0A1428]">
@@ -70,8 +70,8 @@ export default function PricingPage() {
                             </div>
                             <div className="text-xs text-white/60 mb-6 md:mb-8 text-center">Locked for 12 months • 20% lifetime discount after</div>
                             <ul className="space-y-3 md:space-y-4 text-white/80 max-w-[260px] mx-auto flex-1">
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited users, records, events, transactions</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited custom fields, forms, and reports</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited records, events, transactions</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited forms and reports</li>
                                 <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> All 9 modules included</li>
                                 <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Standard support &amp; self-service onboarding</li>
                             </ul>
@@ -127,7 +127,7 @@ export default function PricingPage() {
                     <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
                         <div className="bg-white/5 rounded-3xl p-6 md:p-10">
                             <ul className="space-y-4 md:space-y-6 text-white/80">
-                                <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited custom fields, forms, and reports</li>
+                                <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited forms and reports</li>
                                 <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited donor, volunteer, and contact records</li>
                                 <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited events, ticketing, and fundraising</li>
                                 <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited transactions &amp; text-to-give</li>
