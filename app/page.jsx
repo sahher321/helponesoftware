@@ -32,7 +32,7 @@ export default function HomePage() {
         <>
             {/* HERO */}
             <Hero
-                badge="Founders Beta • Only 217 spots left"
+                badge="Founders Beta • Lock in lifetime pricing before it’s gone"
                 title="One Platform."
                 titleAccent="Unlimited Missions."
                 subtitle="The cheapest way to run your entire nonprofit including payments."
@@ -189,15 +189,15 @@ export default function HomePage() {
                             <div className="grid md:grid-cols-3 gap-6 text-left border-t border-white/10 pt-8 mt-8">
                                 <div className="flex gap-3">
                                     <span className="text-[#00E6C3]">✓</span>
-                                    <span className="text-white/90">Direct access to our team</span>
+                                    <span className="text-white/90">Free migration</span>
                                 </div>
                                 <div className="flex gap-3">
                                     <span className="text-[#00E6C3]">✓</span>
-                                    <span className="text-white/90">Priority support</span>
+                                    <span className="text-white/90">Setup done for you</span>
                                 </div>
                                 <div className="flex gap-3">
                                     <span className="text-[#00E6C3]">✓</span>
-                                    <span className="text-white/90">Influence on the roadmap</span>
+                                    <span className="text-white/90">1-on-1 onboarding</span>
                                 </div>
                             </div>
                         </div>
